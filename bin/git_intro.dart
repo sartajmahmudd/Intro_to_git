@@ -9,6 +9,23 @@ Features:
 4. Delete Category
 
  */
+
+
+String categoryName = '';
+
 void main(List<String> arguments) {
   print('Application begins');
+  createCategory("Our First Category");
+  print(categoryName);
 }
+
+
+void createCategory(String value){
+  categoryName = value;
+}
+
+
+
+
+
+
