@@ -1,4 +1,4 @@
-
+import 'ReadCategory.dart';
 //Project Product Application
 
 /*
@@ -16,10 +16,12 @@ String categoryName = '';
 void main(List<String> arguments) {
   print('Application begins');
   createCategory("Our First Category");
-  print(categoryName);
+  readCategory(categoryName);
+
+
 }
 
-
+//1st feature
 void createCategory(String value){
   categoryName = value;
 }
